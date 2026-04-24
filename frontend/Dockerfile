@@ -27,4 +27,5 @@ USER nginx
 
 EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["sh", "-c", "mkdir -p /tmp/nginx && exec nginx -g 'daemon off;'"]
+
