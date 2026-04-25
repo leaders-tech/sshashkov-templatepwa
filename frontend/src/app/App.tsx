@@ -37,7 +37,7 @@ function Layout({ children }: { children: React.ReactNode }) {
                   </NavLink>
                 )}
                 <button className="rounded-full bg-slate-900 px-4 py-2 text-white" onClick={() => void logout()}>
-                  Logout
+                  Logout ->
                 </button>
               </>
             ) : (
